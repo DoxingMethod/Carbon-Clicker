@@ -1,4 +1,6 @@
-// Carbon's otuA-rekcilC - https://twitter.com/CarbonatedCPU - Contact me
+// Carbon's otuA-rekcilC - https://twitter.com/DoxingMethod - Contact me
+//The text is reversed to prevent tools for string searches from finding results in this program.
+
 #include <iostream>
 #include <windows.h>
 #include <stdlib.h>
@@ -12,7 +14,7 @@ void printMenu (HWND, char []);
 
 int main ()
 {
-	SetConsoleTitle("Carbon's rekcilC"); 
+	SetConsoleTitle("DoxingMethod's rekcilC"); 
 	
 	static bool isClickerOn = false;	
 	
@@ -75,7 +77,7 @@ void printMenu (HWND hwnd, char str[])
 	system("cls");
 		
 	cout << "==================================" << endl
-		 << "==\tSeekedNow's otuA-rekcilC\t==" << endl 
+		 << "==\tDoxingMethod's otuA-rekcilC\t==" << endl 
 		 << "==================================" << endl;
 		
 	hwnd = FindWindow(NULL, str);
